@@ -1,0 +1,15 @@
+.HeaderContainer{
+    display: flex;
+    padding: 10px 30px;
+    span{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    a{
+        margin-left: auto;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+    }
+}

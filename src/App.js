@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {useState} from 'react';
+import Header from './Components/Header';
+import Body from './Components/Body';
+import Detailes from './Components/Detailes';
 function App() {
+  const data = fetch('https://restcountries.com/v3.1/region/ame').then(data => data.json()).then(data => console.log(data));
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header/>
+     <Body/>
+     <Detailes/>
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.HeaderContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 30px;
+}
+
+.HeaderContainer span {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.HeaderContainer a {
+  margin-left: auto;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+/*# sourceMappingURL=Header.css.map */
